@@ -1,1 +1,10 @@
-{}
+{
+  "auth": {
+    "tjps307154ec1": {
+      "service": "Cognito",
+      "providerPlugin": "awscloudformation",
+      "dependsOn": [],
+      "customAuth": false
+    }
+  }
+}
