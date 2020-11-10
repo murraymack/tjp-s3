@@ -1,0 +1,15 @@
+{
+  "master": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-tjps3-master-134312-authRole",
+      "UnauthRoleArn": "arn:aws:iam::133232438414:role/amplify-tjps3-master-134312-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::133232438414:role/amplify-tjps3-master-134312-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-tjps3-master-134312-deployment",
+      "UnauthRoleName": "amplify-tjps3-master-134312-unauthRole",
+      "StackName": "amplify-tjps3-master-134312",
+      "StackId": "arn:aws:cloudformation:us-east-1:133232438414:stack/amplify-tjps3-master-134312/5aa4a150-2395-11eb-b595-0a54954134e7",
+      "AmplifyAppId": "d1fzfqik9ouu7g"
+    }
+  }
+}
