@@ -3,9 +3,17 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import Amplify from 'aws-amplify';
-import config from './aws-exports'
-Amplify.configure(config)
+import Amplify, {Auth} from 'aws-amplify';
+import config from './aws-exports';
+import aws_exports from './aws-exports';
+
+Amplify.configure(aws_exports);
+Auth.configure({
+  region: process.env.COGNITO_REGION,
+  userPoolId: process.env.COGNITO_USER_POOL_ID,
+  userPoolWebClientId: process.env.COGNITO_USER_POOL_WEB_CLIENT_ID,
+  authenticationFlowType: 'USER_PASSWORD_AUTH',
+})
 
 ReactDOM.render(
   <React.StrictMode>
