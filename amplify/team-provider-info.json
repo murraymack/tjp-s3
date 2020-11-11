@@ -13,7 +13,9 @@
     },
     "categories": {
       "auth": {
-        "tjps307154ec1": {}
+        "tjps307154ec1": {
+          "hostedUIProviderCreds": "[]"
+        }
       }
     }
   }
