@@ -6,7 +6,6 @@ import Amplify, { Auth } from 'aws-amplify';
 import awsconfig from './aws-exports';
 Amplify.configure(awsconfig);
 
-
 // You can get the current config object
 const currentConfig = Auth.configure();
 

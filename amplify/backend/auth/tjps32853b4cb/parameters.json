@@ -1,8 +1,8 @@
 {
-    "identityPoolName": "tjps307154ec1_identitypool_07154ec1",
+    "identityPoolName": "tjps32853b4cb_identitypool_2853b4cb",
     "allowUnauthenticatedIdentities": false,
-    "resourceNameTruncated": "tjps307154ec1",
-    "userPoolName": "tjps307154ec1_userpool_07154ec1",
+    "resourceNameTruncated": "tjps32853b4cb",
+    "userPoolName": "tjps32853b4cb_userpool_2853b4cb",
     "autoVerifiedAttributes": [
         "email"
     ],
@@ -28,10 +28,10 @@
     "userpoolClientReadAttributes": [
         "email"
     ],
-    "userpoolClientLambdaRole": "tjps3007154ec1_userpoolclient_lambda_role",
+    "userpoolClientLambdaRole": "tjps322853b4cb_userpoolclient_lambda_role",
     "userpoolClientSetAttributes": false,
-    "sharedId": "07154ec1",
-    "resourceName": "tjps307154ec1",
+    "sharedId": "2853b4cb",
+    "resourceName": "tjps32853b4cb",
     "authSelections": "identityPoolAndUserPool",
     "authRoleArn": {
         "Fn::GetAtt": [
@@ -45,16 +45,11 @@
             "Arn"
         ]
     },
-    "useDefault": "defaultSocial",
+    "useDefault": "default",
     "usernameAttributes": [
         "email"
     ],
     "userPoolGroupList": [],
     "serviceName": "Cognito",
-    "dependsOn": [],
-    "hostedUI": true,
-    "hostedUIDomainName": "tjps3fbdbbc99-fbdbbc99",
-    "authProvidersUserPool": [],
-    "hostedUIProviderMeta": "[]",
-    "oAuthMetadata": "{\"AllowedOAuthFlows\":[\"code\"],\"AllowedOAuthScopes\":[\"phone\",\"email\",\"openid\",\"profile\",\"aws.cognito.signin.user.admin\"],\"CallbackURLs\":[\"http://localhost:3000/\"],\"LogoutURLs\":[\"http://localhost:3000/\"]}"
+    "dependsOn": []
 }
