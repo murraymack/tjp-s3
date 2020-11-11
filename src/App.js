@@ -1,11 +1,20 @@
 import React from 'react';
-import { withAuthenticator, AmplifySignOut } from '@aws-amplify/ui-react';
+import logo from './logo.svg';
+import './App.css';
+import Amplify from 'aws-amplify';
+import awsconfig from './aws-exports';
+import { withAuthenticator, AmplifySignOut } from '@aws-amplify/ui-react'; 
 
-const App = () => (
-  <div>
-    <AmplifySignOut />
-    My App
-  </div>
-);
+Amplify.configure(awsconfig)
+
+function App() {
+	return (
+		<div className="App">
+			<header className="App-header">
+				<AmplifySignOut />
+				<h2>Welcome to TJP S3 App</h2>
+			</header>
+		</div>);
+}
 
 export default withAuthenticator(App);
