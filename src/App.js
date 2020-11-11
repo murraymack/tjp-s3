@@ -1,17 +1,9 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+
 import { withAuthenticator, AmplifySignOut } from '@aws-amplify/ui-react'
-import Amplify, { Auth } from '@aws-amplify';
-import awsconfig from './aws-exports';
-
-Amplify.configure(awsconfig);
-
-// >>New - Configuring Auth Module
-Auth.configure(awsconfig);
-
-// You can get the current config object
-const currentConfig = Auth.configure();
+import Amplify from 'aws-amplify';
 
 function App() {
   return (
